@@ -1,0 +1,113 @@
+.row1{background-color: ghostwhite;
+border-radius: 10px;
+height: fit-content;
+}
+
+.row2{
+    height: 96px;
+}
+
+.btnblue{
+    width: 100%;
+    background-color: rgb(45, 90, 214);
+    color: white;
+    font-weight: bold;
+}
+
+.btnblue::after{
+    content: '»';
+    font-size: 18px;
+    position: relative;
+    top: -14px;
+    right: -26px;
+}
+
+.rup span,  span{
+    font-size: 12px;
+    color: gray;
+    font-weight: lighter
+}
+
+span b{
+    color: black;
+}
+
+
+.border{
+    border: 1px solid rgba(75, 97, 197, 0.5) !important;
+    border-radius: 10px;
+}
+
+.btnblue span{
+    font-weight: lighter;
+    color: white;
+}
+
+section{
+    padding: 5px;
+    word-break: break-all;
+    white-space: normal; 
+    text-overflow: ellipsis;
+    height: 60px;
+    font-size: 12px;
+    border: 0.5px solid rgb(227, 236, 255);
+    border-radius: 10px;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+section:hover{
+    overflow-y: scroll;
+}
+
+#balance{
+    color: blue;
+    font-weight: 800;
+}
+
+strong{
+    font-weight: 500 !important;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+@media (min-width : 768px) and (max-width : 1199px){
+    .btnblue{
+        font-size: 10px;
+    }
+
+    .btnblue span{
+        font-size: 10px;
+    }
+
+    .btnblue::after{
+        content: '»';
+        font-size: 12px;
+        position: relative;
+        top: -10px;
+        right: -2px;
+    }
+
+}
+
+@media (max-width : 768px)
+{
+    .row2{
+        height: auto;
+    }
+}
+
+
+
+
